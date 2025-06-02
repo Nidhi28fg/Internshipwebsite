@@ -35,7 +35,7 @@ function Internship() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3031/internship")
+      .get("https://internshipapi.onrender.com/internship")
       .then((res) => {
         setData(res.data);
         setFilterData(res.data);

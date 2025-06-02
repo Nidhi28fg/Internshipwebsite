@@ -13,7 +13,7 @@ function InternshipDetail() {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:3031/internship/${id}`)
+      .get(`https://internshipapi.onrender.com/internship/${id}`)
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
   }, [id]);
