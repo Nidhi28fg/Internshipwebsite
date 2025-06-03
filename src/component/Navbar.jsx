@@ -21,8 +21,9 @@ function Navbar() {
                 Home <span class="text-[28px]"></span>{" "}
               </Link>
             </li>
-            <li class="flex items-center">
-              About Us
+            <li>
+                <Link class="flex items-center" to="/aboutus">
+              About Us</Link>
             </li>
             <li>
               {" "}

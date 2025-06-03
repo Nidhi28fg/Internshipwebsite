@@ -12,6 +12,7 @@ import Category from "./component/Category";
 import Internship from "./pages/Internship";
 import InternshipDetail from "./pages/InternshipDetail";
 import Course from "./pages/Course";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             </>
           }
         />
+           <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/internship" element={<Internship />} />
          <Route path="/internshipdetail/:id" element={<InternshipDetail />} />

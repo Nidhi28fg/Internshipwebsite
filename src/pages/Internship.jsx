@@ -19,6 +19,9 @@ function Internship() {
   });
   const handleFilterChange = (e) => {
     const { name, value } = e.target;
+    console.log(e.target);
+    console.log(name);
+    console.log(value);
     setFilters((prevFilters) => ({
       ...prevFilters,
       [name]: value,
