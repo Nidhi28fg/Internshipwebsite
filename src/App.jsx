@@ -13,6 +13,7 @@ import Internship from "./pages/Internship";
 import InternshipDetail from "./pages/InternshipDetail";
 import Course from "./pages/Course";
 import AboutUs from "./pages/AboutUs";
+import Singuppage from "./pages/Singuppage";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/internship" element={<Internship />} />
          <Route path="/internshipdetail/:id" element={<InternshipDetail />} />
           <Route path="/course" element={<Course/>} />
+          <Route path="/singup" element={<Singuppage/>}/>
       </Routes>
     </BrowserRouter>
   );

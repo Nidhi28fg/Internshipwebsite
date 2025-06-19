@@ -1,6 +1,6 @@
-import Certification from "../component/Certification";
-import Placement from "../component/Placement";
 import Navbar from "../component/Navbar";
+import Faq from "../component/Faq";
+import NewTestimonail from "../component/NewTestimonial";
 
 function AboutUs() {
   return (
@@ -17,6 +17,8 @@ function AboutUs() {
         <img class="w-[26%] h-[278px]" src="https://internshala-uploads.internshala.com/banner-images/home_new/pep_sales_star_2025-student.png.webp" alt="" srcset="" />
         </div>
     </div>
+    <Faq />
+    <NewTestimonail/>
     </div>
   );
 }

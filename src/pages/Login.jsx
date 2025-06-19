@@ -1,5 +1,6 @@
 import { FaFacebook, FaGoogle, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import Navbar from "../component/Navbar";
+import { Link } from "react-router-dom";
 
 
 function Login() {
@@ -11,7 +12,8 @@ function Login() {
         <h2 class="text-[80px] font-bold">New Here?</h2>
         <p class="text-[25px] w-[325px]">Sign up and discover a great amount of new opportunities</p>
         
-        <button class="p-4 text-[#48b5a7] w-50 m-12 font-bold text-xl rounded-3xl bg-white">Sign Up</button>
+        <Link class="flex items-center" to="/singup">
+        <button class="p-4 text-[#48b5a7] w-50 m-12 font-bold text-xl rounded-3xl bg-white">Sign Up</button></Link>
         <p>---------------or-----------------</p>
         <div class="flex justify-center mt-3 text-2xl text-white gap-[20px]">< FaFacebook/> <FaLinkedin/> <FaGoogle/> <FaInstagram/> </div>
       </div>
